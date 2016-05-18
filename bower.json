@@ -1,0 +1,25 @@
+{
+  "name": "tpa-styles",
+  "homepage": "https://github.com/ING-Group/tpa-style",
+  "authors": [
+    "Jan Meijering <jan@meijering.com>"
+  ],
+  "description": "General theming of the ING bootstrap",
+  "main": "tpa-styles",
+  "keywords": [
+    "style",
+    "css"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "tpa-fonts": "https://github.com/ING-Group/tpa-icons.git",
+    "polymer": "Polymer/polymer#^1.4.0"
+  }
+}
