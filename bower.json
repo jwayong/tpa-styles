@@ -19,7 +19,11 @@
     "tests"
   ],
   "dependencies": {
-    "tpa-fonts": "https://github.com/ING-Group/tpa-icons.git",
+    "tpa-font": "git://github.com/ING-Group/tpa-font.git",
     "polymer": "Polymer/polymer#^1.4.0"
+  },
+  "devDependencies": {
+    "web-component-tester": "^4.0.0",
+    "paper-button": "PolymerElements/paper-button#^1.0.11"
   }
 }
