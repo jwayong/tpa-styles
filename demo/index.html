@@ -16,20 +16,58 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
     <script src="../../webcomponentsjs/webcomponents-lite.min.js"></script>
     <link rel="import" href="../../paper-button/paper-button.html">
     <link rel="import" href="../../tpa-font/tpa-font.html">
-
-
     <link rel="import" href="../app-theme.html">
+    <link rel="import" href="../typography.html">    
+    
+    <style is="custom-style" include="shared-styles">
+          paper-card {
+            width: 100%;
+          }
+    </style>
+    
   </head>
   <body unresolved>
-
-    <h1>The ING <code>&lt;app-theme&gt;</code></h1>
-    <h2>Buttons</h2>
-    <p>Default button:  <paper-button>Default</paper-button></p>
-    <p>Button with class="primary": <paper-button raised class="primary">Primay</paper-button></p>
-    <p>Button with class="secondary": <paper-button raised class="secondary">Secondary</paper-button></p>
-
-    <p>Button with class="primary" and raised: <paper-button raised class="primary">Primay</paper-button></p>
-    <p>Button with class="secondary" and raised: <paper-button raised class="secondary">Secondary</paper-button></p>
-
+    <h1>tpa-styles</h1>
+      <section id="app-theme.html">        
+        <h2>Buttons</h2>
+        <p>Default button:  <paper-button>Default</paper-button></p>
+        <p>Button with class="primary": <paper-button raised class="primary">Primay</paper-button></p>
+        <p>Button with class="secondary": <paper-button raised class="secondary">Secondary</paper-button></p>
+        <p>Button with class="primary" and raised: <paper-button raised class="primary">Primay</paper-button></p>
+        <p>Button with class="secondary" and raised: <paper-button raised class="secondary">Secondary</paper-button></p>
+        
+        <h2>Cards</h2>
+        <paper-card heading="ING Paper Card" class="block">
+          <div class="card-content">
+            We are a global financial institution with a strong European base, offering banking services.
+          </div>            
+        </paper-card>
+        <paper-card heading="ING Paper Card with Image" class="block" image="http://www.ing.com/static/ingdotcompresentation/static/img/logos/logo.hd.png">
+          <div class="card-content">
+            Secondary
+          </div>            
+        </paper-card>
+      </section>
+      
+      <section id="typography.html">
+        <div class="paper-font-common-base">paper-font-common-base</div>
+        <div class="paper-font-common-code">paper-font-common-code</div>
+        <div class="paper-font-common-expensive-kerning">paper-font-common-expensive-kerning</div>
+        <div class="paper-font-common-nowrap">paper-font-common-nowrap</div>
+        <div class="paper-font-display4">paper-font-display4</div>
+        <div class="paper-font-display3">paper-font-display3</div>
+        <div class="paper-font-display2">paper-font-display2</div>
+        <div class="paper-font-display1">paper-font-display1</div>
+        <div class="paper-font-headline">paper-font-headline</div>
+        <div class="paper-font-title">paper-font-title</div>
+        <div class="paper-font-subhead">paper-font-subhead</div>
+        <div class="paper-font-body2">paper-font-body2</div>
+        <div class="paper-font-body1">paper-font-body1</div>
+        <div class="paper-font-caption">paper-font-caption</div>
+        <div class="paper-font-menu">paper-font-menu</div>
+        <div class="paper-font-button">paper-font-button</div>
+        <div class="paper-font-code2">paper-font-code2</div>
+        <div class="paper-font-code1">paper-font-code1</div>
+      </section>      
   </body>
 </html>
