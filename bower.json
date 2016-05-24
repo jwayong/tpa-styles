@@ -5,7 +5,7 @@
     "Jan Meijering <jan@meijering.com>"
   ],
   "description": "General theming of the ING bootstrap",
-  "main": "tpa-styles",
+  "main": "tpa-styles.html",
   "keywords": [
     "style",
     "css"
