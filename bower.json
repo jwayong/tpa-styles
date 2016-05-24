@@ -19,11 +19,12 @@
     "tests"
   ],
   "dependencies": {
-    "tpa-font": "git://github.com/ING-Group/tpa-font.git",
+    "tpa-font": "ING-Group/tpa-font",
     "polymer": "Polymer/polymer#^1.4.0"
   },
   "devDependencies": {
     "web-component-tester": "^4.0.0",
-    "paper-button": "PolymerElements/paper-button#^1.0.11"
+    "paper-button": "PolymerElements/paper-button",
+    "paper-card": "PolymerElements/paper-card"    
   }
 }
