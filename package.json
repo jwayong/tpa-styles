@@ -1,0 +1,30 @@
+{
+  "name": "tpa-styles",
+  "version": "0.0.1",
+  "description": "ING theming following the Visual Identity.",
+  "main": "tpa-styles.html",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {    
+  },
+  "devDependencies": {        
+  },
+  "scripts": {
+    "test": "echo 'No Tests'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ING-Group/tpa-seed.git"
+  },
+  "keywords": [
+    "tpa",
+    "polymer"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ING-Group/tpa-seed/issues"
+  },
+  "homepage": "https://github.com/ING-Group/tpa-seed#readme"
+}
