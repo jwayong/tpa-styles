@@ -8,12 +8,10 @@
   },
   "dependencies": {    
   },
-  "devDependencies": {
-    "drakov": "^1.0.0",
-    "gulp": "^3.9.1"    
+  "devDependencies": {        
   },
   "scripts": {
-    "test": "wct"
+    "test": "echo 'No Tests'"
   },
   "repository": {
     "type": "git",

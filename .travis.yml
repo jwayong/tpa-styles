@@ -17,4 +17,5 @@ addons:
     packages:
       - google-chrome-stable
   sauce_connect: false
+script: 
 dist: trusty
