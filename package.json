@@ -2,7 +2,7 @@
   "name": "tpa-styles",
   "version": "0.0.1",
   "description": "ING theming following the Visual Identity.",
-  "main": "wct.conf.js",
+  "main": "tpa-styles.html",
   "directories": {
     "test": "test"
   },
@@ -10,11 +10,10 @@
   },
   "devDependencies": {
     "drakov": "^1.0.0",
-    "gulp": "^3.9.1",
-    "web-component-tester-istanbul": "^0.10.0"
+    "gulp": "^3.9.1"    
   },
   "scripts": {
-    "test": "npm test"
+    "test": "wct"
   },
   "repository": {
     "type": "git",
