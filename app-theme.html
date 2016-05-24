@@ -67,9 +67,11 @@
 
         /* paper-button */
         --paper-button: {
-            /*color:var(--light-primary-color);*/
+            color:var(--ing-grey-900);
+            background-color: var(--ing-grey-100);
             height: 35px;
             text-transform: none;
+            font-weight:700;
         }
 
         /* paper-card */
@@ -91,6 +93,10 @@
         /* paper-toolbar */
         --paper-toolbar-height: auto;
 
+    }
+
+    :root paper-button:hover {
+        background-color: #ffffff;
     }
 
     :root paper-button.secondary:hover,
