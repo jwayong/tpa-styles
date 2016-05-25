@@ -64,6 +64,7 @@
         --dark-accent-color: var(--ing-orange-500);
         --paper-tabs-selection-bar-color: #FFC1A0;
 
+        --paper-input-container-focus-color: var(--ing-orange-500);
         /* Components */
 
         /* paper-button */
@@ -87,6 +88,7 @@
         --paper-input-prefix: {
             margin-right: 10px;
         }
+
         /* paper-menu */
         --paper-menu-background-color: #fff;
         --menu-link-color: #111111;
@@ -126,6 +128,9 @@
         color: #333;
         font: 13px/1.231 'INGMe', arial, helvetica, clean, sans-serif;
     }
+    :root * {
+        font: 13px/1.231 'INGMe', arial, helvetica, clean, sans-serif;
+    }
 
     .space {
         @apply(--layout-flex);
@@ -141,6 +146,23 @@
 
     }
 
+    :root paper-input.large * {
+        font-size:2rem;
+        line-height:2.5rem;
+    }
+    :root paper-input.large {
+        margin:0;
+    }
+    :root paper-input.large  {
+        --paper-input-container-input: {
+            font-size:2rem;
+        }
+    }
+    :root paper-input.large {
+        --paper-input-container-label-focus: {
+            display: none;
+        }
+    }
     paper-menu {
         --paper-menu-selected-item: {
             color: var(--primary-color);
