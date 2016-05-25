@@ -62,6 +62,7 @@
         --accent-color: var(--ing-orange-500);
         --light-accent-color: var(--ing-orange-100);
         --dark-accent-color: var(--ing-orange-500);
+        --paper-tabs-selection-bar-color: #FFC1A0;
 
         /* Components */
 
@@ -79,7 +80,7 @@
             padding: 10px;
         }
         --paper-card-header-text: {
-        color: var(--ing-orange-100);
+            color: var(--ing-orange-500);
         }
 
         /* paper-input */
@@ -91,12 +92,17 @@
         --menu-link-color: #111111;
 
         /* paper-toolbar */
-        --paper-toolbar-height: auto;
+        /*--paper-toolbar-height: auto;*/
 
     }
 
     :root paper-button:hover {
         background-color: #ffffff;
+    }
+
+    :root paper-tabs {
+        background-color: var(--ing-orange-700);
+        color: #fff;
     }
 
     :root paper-button.secondary:hover,
@@ -138,9 +144,10 @@
     paper-menu {
         --paper-menu-selected-item: {
             color: var(--primary-color);
-        } --paper-menu-focused-item-after: {
-        background: var(--primary-color);
-    }
+        }
+        --paper-menu-focused-item-after: {
+            background: var(--primary-color);
+        }
     }
 
     /* Height of the scroll area */
@@ -183,6 +190,10 @@
 
         iron-pages {
             padding: 48px 62px;
+        }
+
+        :root paper-toolbar {
+            padding:0 48px;
         }
 
     }
