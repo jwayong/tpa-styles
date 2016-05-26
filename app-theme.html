@@ -63,6 +63,9 @@
         --light-accent-color: var(--ing-orange-100);
         --dark-accent-color: var(--ing-orange-500);
         --paper-tabs-selection-bar-color: #FFC1A0;
+        --paper-tabs-selection-bar: {
+            height:4px;
+        }
 
         --paper-input-container-focus-color: var(--ing-orange-500);
         /* Components */
@@ -119,7 +122,12 @@
         background-color: #ffffff;
     }
 
+    :root iron-icon.primary {
+        fill: var(--ing-orange-300);
+    }
+
     /* General styles */
+
 
     body {
         @apply(--layout-fullbleed);
