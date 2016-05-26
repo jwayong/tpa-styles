@@ -20,6 +20,7 @@
   ],
   "dependencies": {
     "tpa-font": "ING-Group/tpa-font",
+    "tpa-icons": "ING-Group/tpa-icons",
     "polymer": "Polymer/polymer#^1.4.0"
   },
   "devDependencies": {
