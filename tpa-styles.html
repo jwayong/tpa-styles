@@ -14,24 +14,44 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 <link rel="import" href="../tpa-icons/tpa-icons.html">
 
 <!--
-The `<tpa-styles>` component provides simple ways to use Material Design CSS styles
-in your application with ING theming. The following imports are available:
+The tpa-styles.html provides the CSS styles. Import this file in your application to get the ING theming and fonts according to the global digital guidelines.
 
-1. [app-theme.html](https://github.com/ING-Group/tpa-styles/blob/master/app-theme.html): text,
-background and accent colors that match the default ING theme based off Material Design
+# Global digital guideline essentials
 
-2. [typography.html](https://github.com/ING-Group/tpa-styles/blob/master/typography.html):
-ING [font](http://www.google.com/design/spec/style/typography.html#typography-styles) styles and sizes
+## Visual Identity
+<ol><li>Clear and easy</li><li>Empathetic</li><li>Positive</li><li>No-nonsense</li></ol>
+This means:
+<ul><li>Our (visual) messaging is clear and easy to understand, no frills. The message is the hero.</li><li>Design elements we use serve a purpose and are not used for decoration only.</li><li>Our design elements are to be consistently applied across markets and business units, but allow for enough flexibility to accommodate specific needs.</li></ul>
 
-3. [shared-styles.html](https://github.com/ING-Group/tpa-styles/blob/master/shared-styles.html):
-Currently not used
+## Colors
+### Primary colors
+Our primary colors consist of ING Orange, White, ING Light Grey and ING Mid Grey. By maintaining a strong presence of white and using orange and greys as accents, our appearance feels fresh, light and contemporary.
 
-We recommend importing each of these individual files, and using the style mixins
-available in each ones, rather than the aggregated `tpa-styles.html` as a whole.
+<p><div style="width:60px; height:60px;;float:left;margin-right:20px; background-color:#ff6200;"></div> ING Orange<br>#FF6200<br>h-bg-a-darker</p>
+<p><div style="width:60px; height:60px;;float:left;margin-right:20px; background-color:#ffffff;"></div> White<br>#FFFFFF<br>h-bg-b-base</p>
+<p><div style="width:60px; height:60px;;float:left;margin-right:20px; background-color:#767676;"></div> Dark<br>#767676<br>h-bg-c-dark</p>
+<p><div style="width:60px; height:60px;;float:left;margin-right:20px; background-color:#A8A8A8;"></div> Base<br>#A8A8A8<br>h-bg-c-base</p>
+<p><div style="width:60px; height:60px;;float:left;margin-right:20px; background-color:#D5D5D5;"></div> Light<br>#D5D5D5<br>h-bg-c-light</p>
+<p><div style="width:60px; height:60px;;float:left;margin-right:20px; background-color:#EBEBEB;"></div> Lighter<br>#EBEBEB<br>h-bg-c-lighter</p>
+<p><div style="width:60px; height:60px;;float:left;margin-right:20px; background-color:#F5F5F5;"></div> Lightest<br>#F5F5F5<br>h-bg-c-lightest</p>
+
+
+### Secundary colors
+A set of bright, optimistic secondary colors have been chosen to support our primary colors.<br>Functional colors have a specific purpose. To draw or give positive attention, or to warn you against doing something. These supporting colors are to be used for infographics, charts and graphs, call to actions and notices, only in conjunction with our primary colors, never on their own. In case you need more supporting colors for your charts and graphs, please feel free to develop them in line with the already existing secondary colors making sure you apply them once the existing ones are been used.
+
+<div style="width:60px; height:60px;;float:left;margin-right:20px; background-color:#525199;"></div> ING Indigo<br>#525199<br>h-bg-d-darker
+<div style="width:60px; height:60px;;float:left;margin-right:20px; background-color:#60A6DA;"></div> ING Sky<br>#60A6DA<br>h-bg-e-darker</p>
+<div style="width:60px; height:60px;;float:left;margin-right:20px; background-color:#AB0066;"></div> ING Fuchsia<br>#AB0066<br>h-bg-f-darker</p>
+<div style="width:60px; height:60px;;float:left;margin-right:20px; background-color:#D0D93c;"></div> ING Lime<br>#D0D93c<br>h-bg-g-darker</p>
+<div style="width:60px; height:60px;;float:left;margin-right:20px; background-color:#349651;"></div> ING Leaf<br>#349651<br>h-bg-h-darker</p>
+<div style="width:60px; height:60px;;float:left;margin-right:20px; background-color:#FF0000;"></div> ING Minus<br>#FF0000<br>h-bg-i-darker</p>
+
+## Icons
+### Icon set
+We have created a <a href="/elements/tpa-icons">set of icons</a> for use online. They consist of simple pictograms which can be used to aid legibility and recognition of concepts and themes in our business.
 
 @group TPA Elements
 @pseudoElement tpa-styles
-@demo demo/index.html
 -->
 
 <link rel="import" href="app-theme.html">
