@@ -93,8 +93,11 @@
         }
 
         /* paper-menu */
-        --paper-menu-background-color: #fff;
+        --paper-menu-background-color: #fafafa;
         --menu-link-color: #111111;
+
+        /* paper-toolbar */
+        /*--paper-toolbar-height: auto;*/
 
     }
 
@@ -139,7 +142,7 @@
         color: #333;
         font: 13px/1.231 'INGMe', arial, helvetica, clean, sans-serif;
     }
-    :root body {
+    :root * {
         font-size: 13px;
         line-height: 1.231;
         font-family: INGMe, arial, helvetica, clean, sans-serif;
@@ -151,6 +154,7 @@
 
     paper-scroll-header-panel {
         height: 100%;
+        background-color: #fafafa;
     }
 
     paper-menu a > *, paper-menu paper-item > *, paper-menu paper-icon-item > * {
@@ -220,15 +224,17 @@
     @media (min-width: 601px) {
 
         #drawer.paper-drawer-panel > [drawer] {
-            border-right: 1px solid rgba(0, 0, 0, 0.14);
+            /*border-right: 1px solid rgba(0, 0, 0, 0.14);*/
         }
 
         iron-pages {
             padding: 48px 62px;
         }
 
-        #content {
+        :root paper-toolbar {
             padding:0 48px;
+            background-color: #ffffff;
+            color: #ff6200;
         }
 
     }
