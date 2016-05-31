@@ -119,6 +119,12 @@
         background-color: #ffffff;
     }
 
+    :root paper-button.secondary[disabled],
+    :root paper-button.primary[disabled] {
+        background-color: var(--ing-grey-100);
+        color: var(--ing-grey-500);
+    }
+
     :root paper-icon-button.primary iron-icon,
     :root iron-icon.primary {
         fill: var(--ing-orange-300);
