@@ -53,7 +53,7 @@
 
         --primary-text-color: var(--ing-grey-900);
         --primary-background-color: #ffffff;
-        --secondary-text-color: #737373;
+        --secondary-text-color: var(--ing-grey-800);
         --disabled-text-color: #9b9b9b;
         --divider-color: #dbdbdb;
         --primary-color: var(--ing-orange-500);
@@ -98,6 +98,10 @@
 
     :root paper-button:hover {
         background-color: #ffffff;
+    }
+
+    --paper-card-header-text: {
+        color: var(--ing-orange-500);
     }
 
     :root paper-tabs {
@@ -147,6 +151,14 @@
         font-size: 13px;
         line-height: 1.231;
         font-family: INGMe, arial, helvetica, clean, sans-serif;
+    }
+
+    h1, h2, h3, h4 {
+        color: var(--ing-orange-700);
+    }
+
+    :root h1, :root h2, :root h3, :root h4 {
+        color: var(--ing-orange-700);
     }
 
     .space {
